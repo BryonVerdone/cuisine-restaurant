@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --icon-colors: #ff8800;
+}
 ul {
   list-style: none;
 }
@@ -26,4 +29,41 @@ Header
 .nav-item {
   display: inline-block;
   padding: 1rem;
+}
+
+/* 
+==========
+Hero Section
+==========
+*/
+.hero-section {
+  background-image: url(./photos/food_on_plate.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.hero-container {
+  width: 100%;
+  padding: 5rem;
+}
+.hero-text {
+  font-size: 2rem;
+}
+.search-container {
+  margin: 1rem 0;
+}
+input {
+  padding: 0.5rem;
+}
+.search-btn {
+  margin: -4px;
+  padding: 0.5rem;
+  background: var(--icon-colors);
+}
+.social-icon {
+  color: var(--icon-colors);
+  padding: 1rem 0 1rem 1rem;
 }
