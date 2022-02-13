@@ -67,3 +67,48 @@ input {
   color: var(--icon-colors);
   padding: 1rem 0 1rem 1rem;
 }
+/* 
+==========
+About Section
+==========
+*/
+.about-us {
+  background-image: url(./photos/knife.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about-us-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  max-width: 100%;
+}
+.sub-heading {
+  color: var(--icon-colors);
+}
+.section-heading {
+  font-size: 1rem;
+  width: 100%;
+}
+.about-us-text {
+  width: 100%;
+}
+p {
+  padding: 0.5rem 0;
+  width: 50%;
+  text-align: justify;
+}
+.discover-btn {
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 1rem;
+  background: var(--icon-colors);
+  text-align: justify;
+}
