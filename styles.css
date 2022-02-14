@@ -90,7 +90,8 @@ About Section
   color: var(--icon-colors);
 }
 .section-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  width: 100%;
 }
 .about-us-text {
   width: 100%;
@@ -115,9 +116,11 @@ Photo Section
 */
 .photo-section {
   padding: 2rem;
+  margin: 0 5rem;
   text-align: center;
 }
 .photo-section-links {
+  border-bottom: 1px solid grey;
   margin: auto;
 }
 .photo-menu-item {
@@ -126,4 +129,16 @@ Photo Section
 }
 .photo-menu-item a:hover {
   color: var(--icon-colors);
+}
+.photo-grid {
+  margin: 1rem auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
 }
