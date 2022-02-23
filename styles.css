@@ -138,6 +138,11 @@ Photo Section
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
 }
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 img {
   width: 100%;
