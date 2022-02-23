@@ -81,22 +81,17 @@ About Section
   justify-content: flex-end;
   align-items: center;
   padding: 2rem;
-  /* height: 100vh; */
 }
 .about-us-container {
   width: 50%;
   padding: 2rem;
-  /* display: flex;
-  justify-content: flex-end;
-  align-items: center; */
-  /* max-width: 100%; */
 }
 .sub-heading {
   color: var(--icon-colors);
 }
 .section-heading {
-  font-size: 2rem;
-  /* width: 100%; */
+  font-size: 1.5rem;
+  width: 100%;
 }
 .about-us-text {
   width: 100%;
@@ -113,4 +108,42 @@ p {
   padding: 1rem;
   background: var(--icon-colors);
   text-align: justify;
+}
+/* 
+==========
+Photo Section
+==========
+*/
+.photo-section {
+  padding: 2rem;
+  margin: 0 5rem;
+  text-align: center;
+}
+.photo-section-links {
+  border-bottom: 1px solid grey;
+  margin: auto;
+}
+.photo-menu-item {
+  display: inline;
+  padding: 1rem;
+}
+.photo-menu-item a:hover {
+  color: var(--icon-colors);
+}
+.photo-grid {
+  margin: 1rem auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img {
+  width: 100%;
 }
