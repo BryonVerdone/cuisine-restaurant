@@ -207,3 +207,31 @@ Hours Section
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* 
+==========
+Review Section
+==========
+*/
+
+.review-section {
+  text-align: center;
+}
+.review-img-container {
+}
+.review-img {
+  border-radius: 50%;
+  width: 100px;
+}
+.review-text-container {
+  margin: 0 4rem;
+}
+.review-text-container span + span {
+  margin: 1.5rem;
+  display: block;
+}
+.star {
+  color: #ffe207;
+}
+.review-text-container p {
+  text-align: center;
+}
