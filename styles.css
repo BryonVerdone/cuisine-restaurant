@@ -147,3 +147,63 @@ Photo Section
 img {
   width: 100%;
 }
+/* 
+==========
+Hours Section
+==========
+*/
+.hours-section {
+  text-align: center;
+}
+.hours-container {
+  margin: auto auto;
+}
+.phone-container {
+  margin-top: 35px;
+}
+.phone-icon {
+  color: var(--icon-colors);
+  border: 1px solid var(--icon-colors);
+  padding: 0.75rem;
+  border-radius: 50%;
+}
+.phone-container span {
+  display: block;
+  margin: 10px;
+}
+.phone-container span + span {
+  color: var(--icon-colors);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.days-container {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.container-l span {
+  display: block;
+}
+.container-r span {
+  display: block;
+}
+.hours-photo-container {
+  margin: 2rem 0;
+  text-align: center;
+  position: relative;
+
+  /* width: 800px; */
+}
+.hours-photo {
+  width: 750px;
+  height: 300px;
+  object-fit: cover;
+}
+.play-icon {
+  position: absolute;
+  color: var(--icon-colors);
+  font-size: 1.75rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
